@@ -4,10 +4,10 @@
 
 ### Contacts
 
-e-mail: anton.starosotnikov@gmail.com
-linkedin: https://www.linkedin.com/in/anton-starosotnikov-828117239/
-telegram: @antonstarosotnikov
-instagram: @antonstarosotnikov
+- e-mail: anton.starosotnikov@gmail.com
+- linkedin: https://www.linkedin.com/in/anton-starosotnikov-828117239/
+- telegram: @antonstarosotnikov
+- instagram: @antonstarosotnikov
 
 ### Summary
 
