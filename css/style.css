@@ -14,14 +14,14 @@ ol[class] {
 
 .container {
     margin: 40px auto;
-    max-width: 1170px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    max-width: 900px;
     padding: 15px;
 }
 
 .header {
     display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
 }
 
 .header__avatar-wrapper {
@@ -29,9 +29,9 @@ ol[class] {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    min-width: 300px;
-    width: 300px;
-    height: 300px;
+    min-width: 230px;
+    width: 230px;
+    height: 230px;
 }
 
 .header__avatar {
@@ -66,4 +66,17 @@ ol[class] {
 
 .header__item:hover {
     border-bottom: 1px solid #000;
+}
+
+
+.footer {
+    margin-top: 30px;
+    background-color: rgb(179, 179, 179);
+    padding: 10px 0;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
