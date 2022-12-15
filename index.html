@@ -11,7 +11,7 @@
     <div class="container">
         <header class="header">
             <div class="header__avatar-wrapper">
-                <img class="header__avatar" src="./img/avatar.jpg" alt="avatar"/>
+                <img class="header__avatar" src="./img/avatar.jpg" alt="avatar">
             </div>
             <div class="header__right-side">
                 <h1 class="header__title">Frontend developer</h1>
@@ -60,6 +60,22 @@
                     <li class="experience__item">Participated in the training of the Clevertec company, where wrote an online clothing store.</li>
                 </ul>
             </section>
+            <section class="section code">
+                <h2 class="code__title">Code example:</h2>
+                <pre>
+                    <code>
+                        function moveZeros(arr) {
+                            const copyArr = [...arr];
+                            const res = copyArr.filter(item => item !== 0)
+                            const zeroNumber = copyArr.length - res.length;
+                            for (let i = 0; i < zeroNumber; i++) {
+                                res.push(0);
+                            }
+                            return res;
+                        }
+                    </code>
+                </pre>
+            </section>
             <section class="section education">
                 <h2 class="education__title">Education:</h2>
                 <ol class="education__list">
@@ -80,7 +96,7 @@
                 <ul class="footer__list">
                     <li class="footer__item"><a href="https://github.com/Xaky0105?tab=repositories" target="_blank">Github</a></li>
                     <li class="footer__item year">2022</li>
-                    <li class="footer__item logo"><a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school_js.svg" width="150" alt="rs-school-course"/></a></li>
+                    <li class="footer__item logo"><a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school_js.svg" width="150" alt="rs-school-course"></a></li>
                 </ul>
             </nav>
         </footer>
